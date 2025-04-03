@@ -119,7 +119,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/dan/snes-controller-PCB-gerbers-v1.2-PCBWay/")
+			(outputdirectory "/home/dan/snes-controller-PCB-gerbers-v1.3-PCBWay/")
 		)
 	)
 	(net 0 "")
@@ -2523,7 +2523,6 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/ca34a0bc-f4fe-4e1f-9b85-0682adde40b4")
 		(sheetname "/")
 		(sheetfile "SNES_CONTROLLER.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -3163,106 +3162,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4"
-		(layer "F.Cu")
-		(uuid "2d0bfd17-e687-4994-a610-c55424495e76")
-		(at -43.925 -48.425)
-		(descr "Mounting Hole 4.3mm, no annular, M4")
-		(tags "mounting hole 4.3mm no annular m4")
-		(property "Reference" "H2"
-			(at 0 -5.3 0)
-			(layer "F.SilkS")
-			(uuid "24ccdde9-057e-4a78-9ad3-71fbf9aa8d19")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 5.3 0)
-			(layer "F.Fab")
-			(uuid "f8bead18-2fd3-4365-820b-53ff0aeebb14")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87e872d7-df78-464d-bd4d-59c64151f52a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47883dbe-3444-46b7-80f9-892d4c2cf188")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(sheetname "/")
-		(sheetfile "SNES_CONTROLLER.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 4.3 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "33e19160-ddf1-4fa1-ac6e-779d85cddb93")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4.55 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d1ece821-339f-446a-86e5-3255b7333e5b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "f6f94849-2de8-4f3f-bd31-ee5e377e4b5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 4.3 4.3)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c2fce930-5d99-46f0-a2c0-074e942de36a")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 		(layer "F.Cu")
@@ -7409,206 +7308,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4"
-		(layer "F.Cu")
-		(uuid "787d4b60-ae2e-4ce1-bc1b-396c604b65ce")
-		(at 4.575 14.725)
-		(descr "Mounting Hole 4.3mm, no annular, M4")
-		(tags "mounting hole 4.3mm no annular m4")
-		(property "Reference" "H3"
-			(at 0 -5.3 0)
-			(layer "F.SilkS")
-			(uuid "50737cd5-45eb-4983-9beb-a2c452b29342")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 5.3 0)
-			(layer "F.Fab")
-			(uuid "6718836a-9fec-4ad2-ab97-4162a8e61e5c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3613bcf-dc7b-4e29-80b7-2ef9c0a013c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b219feb2-cd40-4006-84a6-edef7763634f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(sheetname "/")
-		(sheetfile "SNES_CONTROLLER.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 4.3 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "4cffdede-0ae6-4297-9eb8-2f057aa64b77")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4.55 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "06763902-e2d7-4683-83ed-965f21436a99")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "748afe8e-291a-4eb5-aabe-cf95cc7fabe2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 4.3 4.3)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "d7b0fc89-29ce-44c4-b086-18399ee3d49e")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4"
-		(layer "F.Cu")
-		(uuid "7b140d48-500c-4555-bbe4-40cdca5a93c5")
-		(at 4.575 4.575)
-		(descr "Mounting Hole 4.3mm, no annular, M4")
-		(tags "mounting hole 4.3mm no annular m4")
-		(property "Reference" "H2"
-			(at 0 -5.3 0)
-			(layer "F.SilkS")
-			(uuid "4b9e9952-0e50-49ea-be91-d13c88d01c5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 5.3 0)
-			(layer "F.Fab")
-			(uuid "c437aff7-d47d-4e4d-a671-856e5d88ad4d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4491a5f-caa6-4637-bc6c-311f623f7f48")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "643cea78-42a8-41ed-a705-1d4c8ca45139")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(sheetname "/")
-		(sheetfile "SNES_CONTROLLER.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 4.3 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "1b91505c-8382-47f0-bc00-1fe7c016e938")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4.55 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "23b15706-829c-48ce-afe0-e710db558c5a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "78bc6689-34b1-4286-b144-3bfaf89aa39a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 4.3 4.3)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "22568e4c-e1c8-480a-af5f-3ced7d2620c4")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 		(layer "F.Cu")
 		(uuid "85ee4c98-158f-4570-8b77-2ca7cf593664")
@@ -9132,7 +8831,7 @@
 	(footprint "MountingHole:MountingHole_4.3mm_M4"
 		(layer "F.Cu")
 		(uuid "c20146eb-d0cc-4b24-932a-6015b3f66461")
-		(at 105.5 64.5)
+		(at 102.5 64.5)
 		(descr "Mounting Hole 4.3mm, no annular, M4")
 		(tags "mounting hole 4.3mm no annular m4")
 		(property "Reference" "REF**"
@@ -9415,14 +9114,14 @@
 	(footprint "MountingHole:MountingHole_4.3mm_M4"
 		(layer "F.Cu")
 		(uuid "f3cf31bb-e358-4ca5-b29f-1cde6696af0d")
-		(at 146.5 64.5)
+		(at 149.5 64.5)
 		(descr "Mounting Hole 4.3mm, no annular, M4")
 		(tags "mounting hole 4.3mm no annular m4")
 		(property "Reference" "REF**"
 			(at 0 -5.3 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6ba1fa84-3ab1-467f-8940-15ca31867291")
+			(uuid "3beba179-2b82-42f2-ba0a-85a9f633487f")
 			(effects
 				(font
 					(size 1 1)
@@ -9433,7 +9132,7 @@
 		(property "Value" "MountingHole_4.3mm_M4"
 			(at 0 5.3 0)
 			(layer "F.Fab")
-			(uuid "8b1b268e-f4da-4084-8fc8-07309f694800")
+			(uuid "fe86591e-ead4-43f9-a43d-23a881d3a03b")
 			(effects
 				(font
 					(size 1 1)
@@ -9446,7 +9145,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebf21ec7-be29-4ca1-b7ab-87fe229d6a39")
+			(uuid "6649125b-13c2-4f10-9746-aa1e85b1f6bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9158,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2769fe45-f165-4592-8a3c-24fa27754e18")
+			(uuid "07ea4a37-2585-473f-b8dc-6ebb408d6da0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,7 +9250,7 @@
 		(uuid "d9b7d5bc-f06f-4364-bdc0-51a85407ab39")
 	)
 	(gr_text "RED"
-		(at 130 68 0)
+		(at 130 71 0)
 		(layer "F.SilkS")
 		(uuid "0d67d155-54e1-4d90-bbb3-6840fe8e3650")
 		(effects
@@ -9563,7 +9262,7 @@
 		)
 	)
 	(gr_text "UP"
-		(at 105.25 117.5 0)
+		(at 109 117.5 0)
 		(layer "F.SilkS")
 		(uuid "0eaf9852-307c-47d2-87f9-605b6ff3bd6d")
 		(effects
@@ -9587,7 +9286,7 @@
 		)
 	)
 	(gr_text "Y"
-		(at 105.5 108 0)
+		(at 111 108 0)
 		(layer "F.SilkS")
 		(uuid "2061c297-3667-4777-9978-2c5c3ee60a7f")
 		(effects
@@ -9623,7 +9322,7 @@
 		)
 	)
 	(gr_text "BLU"
-		(at 119.5 68 0)
+		(at 119.5 71 0)
 		(layer "F.SilkS")
 		(uuid "3a0bfa0a-fae7-422d-8180-77804ed98736")
 		(effects
@@ -9659,7 +9358,7 @@
 		)
 	)
 	(gr_text "WHT"
-		(at 114.54 68 0)
+		(at 114.54 71 0)
 		(layer "F.SilkS")
 		(uuid "4090d05f-f33f-4a60-a915-6ac53624d7ec")
 		(effects
@@ -9671,7 +9370,7 @@
 		)
 	)
 	(gr_text "X"
-		(at 145 118.5 -0)
+		(at 140 118.5 0)
 		(layer "F.SilkS")
 		(uuid "6182e738-2d2d-4b77-9cf3-701416d57851")
 		(effects
@@ -9695,7 +9394,7 @@
 		)
 	)
 	(gr_text "A"
-		(at 145 128 -0)
+		(at 140 128 -0)
 		(layer "F.SilkS")
 		(uuid "9627fea7-0ce4-453d-b498-e47eb2d132ac")
 		(effects
@@ -9707,7 +9406,7 @@
 		)
 	)
 	(gr_text "YEL"
-		(at 125 68 0)
+		(at 125 71 0)
 		(layer "F.SilkS")
 		(uuid "a1712571-c9bb-406c-9f49-ce2db891c89e")
 		(effects
@@ -9742,7 +9441,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SNES & Uzebox controller PCB v1.2"
+	(gr_text "SNES & Uzebox controller PCB v1.3"
 		(at 113 134 0)
 		(layer "F.SilkS")
 		(uuid "b8f14506-8c04-4d5b-b603-7df4c047f1d2")
@@ -9755,7 +9454,7 @@
 		)
 	)
 	(gr_text "B"
-		(at 105.25 78 0)
+		(at 111 78 0)
 		(layer "F.SilkS")
 		(uuid "bcc0343c-4826-4e81-9716-8336ab3f91ce")
 		(effects
@@ -9767,7 +9466,7 @@
 		)
 	)
 	(gr_text "BRN"
-		(at 135 68 0)
+		(at 135 71 0)
 		(layer "F.SilkS")
 		(uuid "c6e88fb1-ef0a-4d25-83f1-3a74d8ce3774")
 		(effects
@@ -9779,7 +9478,7 @@
 		)
 	)
 	(gr_text "RIGHT"
-		(at 139 88 -0)
+		(at 140 88 0)
 		(layer "F.SilkS")
 		(uuid "e2f19f01-1826-43aa-b657-7b460fba8881")
 		(effects
@@ -9791,7 +9490,7 @@
 		)
 	)
 	(gr_text "R"
-		(at 145 98 0)
+		(at 140 98 0)
 		(layer "F.SilkS")
 		(uuid "f4cbcab1-00e0-4c78-95e3-995747859e02")
 		(effects
@@ -9803,7 +9502,7 @@
 		)
 	)
 	(gr_text "L"
-		(at 145 108 0)
+		(at 140 108 0)
 		(layer "F.SilkS")
 		(uuid "f955c073-1c25-477c-a269-07402db2b157")
 		(effects
@@ -9862,7 +9561,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SNES & Uzebox controller PCB v1.2"
+	(gr_text "SNES & Uzebox controller PCB v1.3"
 		(at 140.5 134 0)
 		(layer "B.SilkS")
 		(uuid "0f5abb86-a7cf-4c8b-b1ac-1c44db79ce27")
@@ -9983,7 +9682,7 @@
 		)
 	)
 	(gr_text "YEL"
-		(at 127.5 68 0)
+		(at 127.5 71 0)
 		(layer "B.SilkS")
 		(uuid "78a5bf1d-f569-445f-bce8-4612fb3d45ee")
 		(effects
