@@ -4,4 +4,4 @@ This dual layer, 57mm x 76mm SNES and Uzebox controller PCB was created using [K
 
 See the [Uzebox Joystick wiki page](https://uzebox.org/wiki/Joystick) for more info on how to use this PCB.
 
-![SNES + Uzebox controller PCB v1.4 KiCAD render](https://github.com/danboid/SNES_CONTROLLER/blob/main/SNES_CONTROLLER_PCB_v1.4.jpg)
+![SNES + Uzebox controller PCB v1.4 KiCAD render](https://github.com/atellaeche/SNES_CONTROLLER/blob/main/SNES_CONTROLLER_PCB_v1.4.jpg)
