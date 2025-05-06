@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "719592b0-85a8-4eb6-8d13-f447981f3475")
 	(paper "A4")
+	(title_block
+		(title "SNES & Uzebox Modular Joystick PCB")
+		(date "2025-05-06")
+		(rev "1.5")
+	)
 	(lib_symbols
 		(symbol "4xxx:4021"
 			(exclude_from_sim no)
@@ -1942,6 +1947,12 @@
 		(uuid "2a2e05d4-9126-44a0-9180-9440ed634b56")
 	)
 	(junction
+		(at 214.63 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a3e611e-5bfe-4fde-b4f3-48b706781f66")
+	)
+	(junction
 		(at 149.86 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2178,10 +2189,6 @@
 	(no_connect
 		(at 160.02 59.69)
 		(uuid "171606ee-09c5-4746-8943-971805df8dce")
-	)
-	(no_connect
-		(at 214.63 113.03)
-		(uuid "3389e0c7-ff40-4ab1-a2ff-5bd43b9f63ff")
 	)
 	(no_connect
 		(at 161.29 127)
@@ -3384,6 +3391,16 @@
 			(type default)
 		)
 		(uuid "b6fc5959-1ae5-436b-a6dd-f2cee78b7dca")
+	)
+	(wire
+		(pts
+			(xy 214.63 110.49) (xy 214.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74edf20-1d8d-44c2-892a-79c49c13c14c")
 	)
 	(wire
 		(pts
