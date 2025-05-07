@@ -13,5 +13,5 @@ See the [Uzebox Joystick wiki page](https://uzebox.org/wiki/Joystick) for more i
 
 ## Legal Disclaimers
 
-1. This project is in no way affiliated with, licensed by, or endorsed by **Nintendo Co., Ltd.** or their respected partners and subsidiaries.  The names **Nitendo," "Super Nintendo Entertainment System," and "Super Famicom"** are all registered trademarks of Nintendo Co., Ltd. and are used here for context reference only.
+1. This project is in no way affiliated with, licensed by, or endorsed by **Nintendo Co., Ltd.** or their respected partners and subsidiaries.  The names **"Nintendo," "Super Nintendo Entertainment System," and "Super Famicom"** are all registered trademarks of Nintendo Co., Ltd. and are used here for context reference only.
 1. This project is offered without warranty of any kind, and the authors **ASSUME NO LIABILITY** for material, physical, or immaterial damages caused by the use or non-use of this design.
