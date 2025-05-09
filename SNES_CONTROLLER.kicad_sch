@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SNES & Uzebox Modular Joystick PCB")
-		(date "2025-05-06")
+		(date "2025-05-08")
 		(rev "1.5")
 	)
 	(lib_symbols
@@ -1850,6 +1850,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Shift Registers"
+		(exclude_from_sim no)
+		(at 249.428 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9c78053-3b82-49ab-bcb9-5e8ba5b8fd3e")
+	)
 	(junction
 		(at 88.9 72.39)
 		(diameter 0)
@@ -2712,6 +2722,16 @@
 		)
 		(uuid "4eb13232-43f2-47bb-a92d-6a04b796ea71")
 	)
+	(polyline
+		(pts
+			(xy 270.51 49.53) (xy 270.51 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5b3cfb-93eb-4634-b64c-2c3e11df716a")
+	)
 	(wire
 		(pts
 			(xy 76.2 62.23) (xy 76.2 90.17)
@@ -2751,6 +2771,16 @@
 			(type default)
 		)
 		(uuid "558ea9ae-23d1-4a13-be1e-5423be126cc6")
+	)
+	(polyline
+		(pts
+			(xy 242.57 165.1) (xy 242.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592cf431-1f4e-4cfc-951c-96464d95d7ca")
 	)
 	(wire
 		(pts
@@ -2831,6 +2861,16 @@
 			(type default)
 		)
 		(uuid "63b5dc46-a508-48e6-9935-17ce02dc581c")
+	)
+	(polyline
+		(pts
+			(xy 242.57 49.53) (xy 243.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d55bd9-e2f3-4deb-adec-37cc0ffb3043")
 	)
 	(wire
 		(pts
@@ -3092,6 +3132,16 @@
 		)
 		(uuid "8715f453-dc53-4bbd-9453-6f980762e26d")
 	)
+	(polyline
+		(pts
+			(xy 243.84 49.53) (xy 270.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88444ad7-321e-435d-9d12-ae9f2a04404e")
+	)
 	(wire
 		(pts
 			(xy 175.26 107.95) (xy 214.63 107.95)
@@ -3261,6 +3311,16 @@
 			(type default)
 		)
 		(uuid "a7f93c64-39ec-455e-adc3-8821151b1626")
+	)
+	(polyline
+		(pts
+			(xy 270.51 165.1) (xy 242.57 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90fc2fe-6f05-4fa7-bed8-48387e0ca5f6")
 	)
 	(wire
 		(pts
@@ -4274,10 +4334,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24966193-1bce-4104-94d1-700e9b6c4374")
 		(property "Reference" "J1"
-			(at 222.25 105.4099 0)
+			(at 218.44 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4345,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x06"
-			(at 222.25 107.9499 0)
+			(at 209.042 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +5017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4021"
+		(property "Value" "4021 In Socket"
 			(at 152.0541 54.61 0)
 			(effects
 				(font
@@ -4967,7 +5026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 149.86 71.12 0)
 			(effects
 				(font
@@ -4994,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "296-2040-5-ND"
+		(property "Digikey P/N" "17-2485264-3-ND"
 			(at 149.86 74.93 0)
 			(effects
 				(font
@@ -5003,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "595-CD4021BE"
+		(property "Mouser P/N" "571-2485264-3"
 			(at 149.86 74.93 0)
 			(effects
 				(font
@@ -5012,7 +5071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. P/N" "CD4021BE"
+		(property "Mfr. P/N" "2485264-3"
 			(at 149.86 74.93 0)
 			(effects
 				(font
@@ -5021,7 +5080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell P/N" "3120813"
+		(property "Farnell P/N" "4575164"
 			(at 149.86 74.93 0)
 			(effects
 				(font
@@ -5082,6 +5141,154 @@
 			(project ""
 				(path "/719592b0-85a8-4eb6-8d13-f447981f3475"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4021")
+		(at 256.54 74.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "58b229a7-be64-4c49-83b2-ccbcfda1aad1")
+		(property "Reference" "X1"
+			(at 258.7341 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4021"
+			(at 258.7341 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4021B.pdf"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit static shift register"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "296-2040-5-ND"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "595-CD4021BE"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CD4021BE"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell P/N" "3120813"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fb63ae6d-276c-4cbf-8955-81d01e2e19de")
+		)
+		(pin "7"
+			(uuid "d329ebf8-4a43-4edf-9e76-f117d12492be")
+		)
+		(pin "5"
+			(uuid "1d327823-0cf8-4802-a728-9673cfe494dc")
+		)
+		(pin "16"
+			(uuid "ebaf5b54-2e5b-4cc5-8a6b-1ee32434ef1b")
+		)
+		(pin "6"
+			(uuid "fad8e219-f8df-4429-a248-f59637fdf37a")
+		)
+		(pin "8"
+			(uuid "46533b87-f82e-47c9-912e-d145fa79f13a")
+		)
+		(pin "15"
+			(uuid "79fa2d0d-aed5-400b-beb2-663a6808fd8f")
+		)
+		(pin "9"
+			(uuid "9896b419-223f-4cc6-9d0c-f9e4a78708e6")
+		)
+		(pin "2"
+			(uuid "cbf0ddd8-d83b-43d4-a17b-c1ee6dca9bcc")
+		)
+		(pin "14"
+			(uuid "91e60dce-1bde-43a4-bd4b-f9aa42aa35c0")
+		)
+		(pin "1"
+			(uuid "4b29f2c4-d4a8-45d6-b1cc-85df897bb50a")
+		)
+		(pin "13"
+			(uuid "761bb8d4-2cf6-4024-8a7d-fa0823348378")
+		)
+		(pin "11"
+			(uuid "3d6a436b-1886-4ce3-9eab-731f18e8b2ca")
+		)
+		(pin "12"
+			(uuid "955c55cf-7f9b-425d-8404-0bb7eea87ad4")
+		)
+		(pin "3"
+			(uuid "1faeb211-2e2f-4cc8-9c01-3542fc38e5f3")
+		)
+		(pin "10"
+			(uuid "47827c94-0723-44e1-b2a3-bdf2119f71e9")
+		)
+		(instances
+			(project "SNES_CONTROLLER"
+				(path "/719592b0-85a8-4eb6-8d13-f447981f3475"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -6123,6 +6330,154 @@
 	)
 	(symbol
 		(lib_id "4xxx:4021")
+		(at 256.54 143.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c0849a69-b02f-49ee-856d-cb5a2a545724")
+		(property "Reference" "X2"
+			(at 258.7341 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4021"
+			(at 258.7341 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+			(at 256.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4021B.pdf"
+			(at 256.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit static shift register"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "296-2040-5-ND"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "595-CD4021BE"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. P/N" "CD4021BE"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell P/N" "3120813"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "71abdb52-c1c5-49a8-a179-c9ea977c1878")
+		)
+		(pin "7"
+			(uuid "1678796d-79f7-4cee-802f-349a6e3b966f")
+		)
+		(pin "5"
+			(uuid "97db643e-4295-4597-b13e-bf656e96005b")
+		)
+		(pin "16"
+			(uuid "bc442ad2-3507-4e26-903b-421ff1d97d4f")
+		)
+		(pin "6"
+			(uuid "9fcb8519-60fa-40f8-9c52-0d3077c08c80")
+		)
+		(pin "8"
+			(uuid "33529d25-8a5b-404d-9591-d34b64f55183")
+		)
+		(pin "15"
+			(uuid "22577c95-4d5b-4b92-a868-2073fa9da6bc")
+		)
+		(pin "9"
+			(uuid "e687c042-3b56-4f1b-b552-b7296daa9311")
+		)
+		(pin "2"
+			(uuid "7dce3cb0-4954-45f7-99d1-a47ec711c479")
+		)
+		(pin "14"
+			(uuid "e42cb420-e7df-4e42-9c95-5e43c9f09ba9")
+		)
+		(pin "1"
+			(uuid "2d44f07f-f9d3-4384-9541-970cc241918f")
+		)
+		(pin "13"
+			(uuid "8a02b65b-b9e1-44e9-94fc-4a4911fc4103")
+		)
+		(pin "11"
+			(uuid "89cc3d07-81d7-4771-8d17-b65a88153683")
+		)
+		(pin "12"
+			(uuid "c93db809-2137-4339-a2e4-9ff7603a51f3")
+		)
+		(pin "3"
+			(uuid "eaae9c10-0d52-4eed-a603-1d4148ae222c")
+		)
+		(pin "10"
+			(uuid "a71c658c-3c78-4a2c-92df-001b3f3e132c")
+		)
+		(instances
+			(project "SNES_CONTROLLER"
+				(path "/719592b0-85a8-4eb6-8d13-f447981f3475"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4021")
 		(at 151.13 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6140,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4021"
+		(property "Value" "4021 In Socket"
 			(at 153.3241 121.92 0)
 			(effects
 				(font
@@ -6149,7 +6504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 151.13 138.43 0)
 			(effects
 				(font
@@ -6176,7 +6531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "296-2040-5-ND"
+		(property "Digikey P/N" "17-2485264-3-ND"
 			(at 151.13 142.24 0)
 			(effects
 				(font
@@ -6185,7 +6540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "595-CD4021BE"
+		(property "Mouser P/N" "571-2485264-3"
 			(at 151.13 142.24 0)
 			(effects
 				(font
@@ -6194,7 +6549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. P/N" "CD4021BE"
+		(property "Mfr. P/N" "2485264-3"
 			(at 151.13 142.24 0)
 			(effects
 				(font
@@ -6203,7 +6558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell P/N" "3120813"
+		(property "Farnell P/N" "4575164"
 			(at 151.13 142.24 0)
 			(effects
 				(font
